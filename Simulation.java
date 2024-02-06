@@ -32,5 +32,6 @@ public class Simulation {
 		disease.runSimulation(N, grid, T, alpha, beta);
 		
 		scnr.close();
+		// new
 	}
 }
