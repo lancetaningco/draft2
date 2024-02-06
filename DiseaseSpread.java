@@ -164,7 +164,6 @@ public class DiseaseSpread {
 				}
 			} catch (InputMismatchException e) {
 				System.out.println("Invalid Input. Enter a valid number.");
-				System.out.println("Hello, World");
 				scnr.nextLine();
 			}
 		} while(recoveryRate < 0.0 || recoveryRate > 1.0);
